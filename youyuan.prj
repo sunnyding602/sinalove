@@ -1,0 +1,164 @@
+/var/www/youyuan=/var/www/youyuan CD=/var/www/youyuan filter="*.php *.html *.js *.css *.htm *.sql" {
+ index-test.php
+ index.php
+ assets=assets {
+  7e745f75=7e745f75 {
+   jquery.ajaxqueue.js
+   jquery.autocomplete.js
+   jquery.ba-bbq.js
+   jquery.ba-bbq.min.js
+   jquery.bgiframe.js
+   jquery.cookie.js
+   jquery.history.js
+   jquery.js
+   jquery.maskedinput.js
+   jquery.maskedinput.min.js
+   jquery.metadata.js
+   jquery.min.js
+   jquery.multifile.js
+   jquery.rating.js
+   jquery.treeview.async.js
+   jquery.treeview.edit.js
+   jquery.treeview.js
+   jquery.yii.js
+   jquery.yiiactiveform.js
+   jquery.yiitab.js
+   punycode.js
+   punycode.min.js
+   autocomplete=autocomplete {
+    jquery.autocomplete.css
+   }
+   jui=jui {
+    css=css {
+     base=base {
+      jquery-ui.css
+      jquery.ui.accordion.css
+      jquery.ui.autocomplete.css
+      jquery.ui.button.css
+      jquery.ui.core.css
+      jquery.ui.datepicker.css
+      jquery.ui.dialog.css
+      jquery.ui.menu.css
+      jquery.ui.progressbar.css
+      jquery.ui.resizable.css
+      jquery.ui.selectable.css
+      jquery.ui.slider.css
+      jquery.ui.spinner.css
+      jquery.ui.tabs.css
+      jquery.ui.theme.css
+      jquery.ui.tooltip.css
+      images=images {
+      }
+     }
+    }
+    js=js {
+     jquery-ui-i18n.min.js
+     jquery-ui.min.js
+    }
+   }
+   rating=rating {
+    jquery.rating.css
+   }
+   treeview=treeview {
+    jquery.treeview.css
+    images=images {
+    }
+   }
+   yiitab=yiitab {
+    jquery.yiitab.css
+   }
+  }
+ }
+ css=css {
+  form.css
+  ie.css
+  main.css
+  print.css
+  screen.css
+ }
+ images=images {
+ }
+ protected=protected {
+  yiic.php
+  commands=commands {
+   shell=shell {
+   }
+  }
+  components=components {
+   Controller.php
+   UserIdentity.php
+  }
+  config=config {
+   console.php
+   main.php
+   test.php
+  }
+  controllers=controllers {
+   admin=admin{
+    IndexPicWallController.php
+   }
+   IndexController.php
+   SiteController.php
+   UserController.php
+  }
+  data=data {
+   schema.mysql.sql
+   schema.sqlite.sql
+  }
+  extensions=extensions {
+  }
+  messages=messages {
+  }
+  migrations=migrations {
+  }
+  models=models {
+   ContactForm.php
+   IndexPicWall.php
+   LoginForm.php
+   User.php
+  }
+  runtime=runtime {
+  }
+  tests=tests {
+   WebTestCase.php
+   bootstrap.php
+   fixtures=fixtures {
+   }
+   functional=functional {
+    SiteTest.php
+   }
+   report=report {
+   }
+   unit=unit {
+   }
+  }
+  views=views {
+   layouts=layouts {
+    column1.php
+    column2.php
+    main.php
+   }
+   site=site {
+    contact.php
+    error.php
+    index.php
+    login.php
+    pages=pages {
+     about.php
+    }
+   }
+  }
+ }
+ themes=themes {
+  classic=classic {
+   views=views {
+    layouts=layouts {
+    }
+    site=site {
+    }
+    system=system {
+    }
+   }
+  }
+ }
+}
